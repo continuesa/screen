@@ -1,7 +1,8 @@
 a {
   color: white;
   text-decoration: none;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
+  text-transform: none;
 }
 
 html,
@@ -83,13 +84,14 @@ body {
 }
 
 .btn-back:hover {
-  color: #308fa3;
+  /*color: #308fa3; !*a2c0ec*!*/
+  color: #FFF; /*a2c0ec*/
 }
 
 .btn-play:hover,
 .btn-prev:hover,
 .btn-next:hover {
-  border-color: #308fa3;
+  border-color: #FFF;
 }
 
 
@@ -346,7 +348,8 @@ svg {
   white-space: nowrap;
   /*letter-spacing: 2px;*/
   line-height: 14px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
+  text-transform: none;
   position: absolute;
   top: 60px;
   color: white;
@@ -963,7 +966,7 @@ svg {
 
 .cta-home {
   position: relative;
-  margin-bottom: 5vh;
+  margin-bottom: 10vh;
   -webkit-transform: scale(.85);
   -ms-transform: scale(.85);
   transform: scale(.85);
@@ -985,7 +988,7 @@ svg {
 
 
   .preorder-text {
-      /*letter-spacing:9px;*/
+    letter-spacing:9px;
   }
 
 
