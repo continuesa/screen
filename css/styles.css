@@ -513,7 +513,8 @@ svg {
 
 
 .big-title {
-  width: calc( 140vh - 200px);
+  /*width: calc( 140vh - 200px);*/
+  width: calc( 124vh - 200px);
   margin-bottom: 0
 }
 
@@ -966,7 +967,7 @@ svg {
 
 .cta-home {
   position: relative;
-  margin-bottom: 10vh;
+  margin-bottom: 14.5vh;
   -webkit-transform: scale(.85);
   -ms-transform: scale(.85);
   transform: scale(.85);
@@ -1079,7 +1080,7 @@ background: rgba(0,0,0,.81);
 
 @media screen and (min-width: 480px) {
   .preorder-text {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .big-title-end {
@@ -1088,8 +1089,8 @@ background: rgba(0,0,0,.81);
   }
 
   .title-date {
-    /*letter-spacing: 1.8vh;*/
-    font-size: 1.8vh;
+    letter-spacing: .2em;
+    font-size: 2.4vh;
     line-height: 6vh;
   }
 

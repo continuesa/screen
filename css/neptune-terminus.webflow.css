@@ -449,10 +449,11 @@ body {
 }
 
 .title-date {
-  margin-top: 5px;
+  /*margin-top: 5px;*/
+  margin-top: 2vh;
   font-size: 18px;
   line-height: 23px;
-  /*letter-spacing: 15px;*/
+  letter-spacing: .2em;
 }
 
 .intro-content {
