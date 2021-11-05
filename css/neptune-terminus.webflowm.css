@@ -1484,7 +1484,8 @@ body {
   .title-date {
     /*padding: 0 30px;*/
     max-width: 84vw;
-    margin-top: 10px;
+    /*margin-top: 10px;*/
+    margin-top: 27px;
     font-size: 14px;
     /*letter-spacing: 8px;*/
   }

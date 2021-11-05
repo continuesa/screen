@@ -967,7 +967,7 @@ svg {
 
 .cta-home {
   position: relative;
-  margin-bottom: 14.5vh;
+  margin-bottom: 13.2vh;
   -webkit-transform: scale(.85);
   -ms-transform: scale(.85);
   transform: scale(.85);
@@ -1090,7 +1090,7 @@ background: rgba(0,0,0,.81);
 
   .title-date {
     letter-spacing: .2em;
-    font-size: 2.4vh;
+    font-size: 2.2vh;
     line-height: 6vh;
   }
 
@@ -1111,7 +1111,7 @@ background: rgba(0,0,0,.81);
 @media screen and (max-width: 991px) {
   .intro-content {
     margin-top: 0;
-    margin-bottom: 10vh;
+    margin-bottom: 19vh;
   }
   .player {
     position: fixed;
