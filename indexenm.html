@@ -69,7 +69,7 @@
 
 <div class="bottom-home">
 
-    <a href="javascript: void(0);" target="_top"
+    <a id="about-link"
        class="cta-preorder alpha cta-home w-inline-block">
         <div class="preorder-text home home-title" style="letter-spacing: 0.2em; text-transform: none;">About New Star</div>
         <div class="btn-border w-embed">
@@ -113,6 +113,16 @@
     titleDate.innerText = screenHomeConfig.desc;
     homeTitle.innerText = screenHomeConfig.but;
     linesBox.setAttribute("viewBox", screenHomeConfig.viewBox);*/
+
+    const box = (id) => document.querySelector(id);
+    const homeTitle = box('#about-link');
+    homeTitle.addEventListener('click', () => {
+        let iframeUrl = window.parent.document.getElementById('iframe').getAttribute('url');
+        window.opener = null;
+        window.open('', "_self")
+        window.close();
+        window.open(iframeUrl);
+    });
 </script>
 </body>
 </html>
