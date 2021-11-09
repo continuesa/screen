@@ -299,8 +299,8 @@ svg {
 */
 
 #main-canvas {
-  /*position: fixed;*/
-  /*top: 0;*/
+  position: fixed;
+  top: 0;
 }
 
 .gradient-top,
